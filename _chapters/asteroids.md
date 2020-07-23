@@ -107,6 +107,7 @@ And finally we're done.  But it was surprisingly messy for what should be a rela
 Observable (we'll use the implementation from rxjs) wraps common asynchronous actions like user events and intervals in streams, that we can process with a chain of 'operators' applied to the chain through a `pipe`.
 
 We start more or less the same as before, inside a function applied on `window.onload` and we still need local variables for the ship visual and its position/angle:
+
 ```typescript
 window.onload = function() {
   const 
