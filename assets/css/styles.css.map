@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		".cheatsheet {\n    background-color: #e8e8e8;\n    padding: 8px 12px;\n  }\n\n.glossary {\n    background-color: #f3f0f0;\n    padding: 8px 12px;\n}\n\n\n.post-header {\n  &, h1 {\n    margin-bottom: 0;\n  }\n}\n\n.glossary-term {\n  position: relative;\n  cursor: pointer;\n  border-bottom: 1px dotted #000;\n}\n\n.glossary-term:hover::after {\n  content: attr(data-definition);\n  position: absolute;\n  left: 0;\n  bottom: 100%;\n  margin-bottom: 10px;\n  padding: 10px;\n  width: 200px;\n  background: #fff;\n  border: 1px solid #ccc;\n  box-shadow: 0 0 10px rgba(0,0,0,0.1);\n  z-index: 1000;\n  white-space: normal;\n}\n\n\n.spoiler {\n  background-color:#000000;\n  color:#000000;\n}\n\n#pagination {\n  width: 100%;\n  display: flex;\n\n  a {\n    flex: 50%;\n\n    &#left {\n\n    }\n\n    &#right {\n      text-align: right;\n    }\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,WAAW,CAAC,EACR,gBAAgB,EAAE,OAAO,EACzB,OAAO,EAAE,QAAQ,GAClB;;AAEH,AAAA,SAAS,CAAC,EACN,gBAAgB,EAAE,OAAO,EACzB,OAAO,EAAE,QAAQ,GACpB;;AAGD,AACE,YADU,EAAZ,YAAY,CACP,EAAE,CAAC,EACJ,aAAa,EAAE,CAAC,GACjB;;AAGH,AAAA,cAAc,CAAC,EACb,QAAQ,EAAE,QAAQ,EAClB,MAAM,EAAE,OAAO,EACf,aAAa,EAAE,eAAe,GAC/B;;AAED,AAAA,cAAc,CAAC,KAAK,EAAE,KAAK,CAAC,EAC1B,OAAO,EAAE,qBAAqB,EAC9B,QAAQ,EAAE,QAAQ,EAClB,IAAI,EAAE,CAAC,EACP,MAAM,EAAE,IAAI,EACZ,aAAa,EAAE,IAAI,EACnB,OAAO,EAAE,IAAI,EACb,KAAK,EAAE,KAAK,EACZ,UAAU,EAAE,IAAI,EAChB,MAAM,EAAE,cAAc,EACtB,UAAU,EAAE,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,kBAAe,EACpC,OAAO,EAAE,IAAI,EACb,WAAW,EAAE,MAAM,GACpB;;AAGD,AAAA,QAAQ,CAAC,EACP,gBAAgB,EAAC,OAAO,EACxB,KAAK,EAAC,OAAO,GACd;;AAED,AAAA,WAAW,CAAC,EACV,KAAK,EAAE,IAAI,EACX,OAAO,EAAE,IAAI,GAad;;AAfD,AAIE,WAJS,CAIT,CAAC,CAAC,EACA,IAAI,EAAE,GAAG,GASV;;AAdH,AAWI,WAXO,CAIT,CAAC,AAOE,MAAM,CAAC,EACN,UAAU,EAAE,KAAK,GAClB"
+}

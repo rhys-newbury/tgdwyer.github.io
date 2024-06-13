@@ -1,0 +1,19 @@
+.cheatsheet { background-color: #e8e8e8; padding: 8px 12px; }
+
+.glossary { background-color: #f3f0f0; padding: 8px 12px; }
+
+.post-header, .post-header h1 { margin-bottom: 0; }
+
+.glossary-term { position: relative; cursor: pointer; border-bottom: 1px dotted #000; }
+
+.glossary-term:hover::after { content: attr(data-definition); position: absolute; left: 0; bottom: 100%; margin-bottom: 10px; padding: 10px; width: 200px; background: #fff; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); z-index: 1000; white-space: normal; }
+
+.spoiler { background-color: #000000; color: #000000; }
+
+#pagination { width: 100%; display: flex; }
+
+#pagination a { flex: 50%; }
+
+#pagination a#right { text-align: right; }
+
+/*# sourceMappingURL=styles.css.map */
